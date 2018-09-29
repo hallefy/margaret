@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="left"
+    android:foregroundGravity="right"
+    android:gravity="left|end"
+    android:orientation="horizontal"
+    app:layout_anchorGravity="right">
+
+
+
+        <com.app.margaret.utils.TypeWriter
+            android:id="@+id/tvMensagemBot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginRight="30dp"
+            android:foregroundGravity="left"
+            android:gravity="left"
+            android:padding="8dp"
+            android:text="Olá, eu sou a Meg!"
+            android:textSize="18sp"
+            android:layout_marginLeft="8dp" />
+
+
+</LinearLayout>
