@@ -19,6 +19,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginRight="30dp"
             android:foregroundGravity="left"
+            android:textColor="@color/colorPrimary"
             android:gravity="left"
             android:padding="8dp"
             android:text="Olá, eu sou a Meg!"

@@ -19,6 +19,7 @@
             android:foregroundGravity="right"
             android:gravity="right"
             android:padding="8dp"
+            android:textColor="@color/colorPrimary"
             android:text="Olá, eu sou a Meg!"
             android:textSize="18sp"
             app:layout_constraintStart_toStartOf="parent"
