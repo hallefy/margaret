@@ -1,10 +1,11 @@
 package com.app.margaret.activities.chat
 
+import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.support.v7.widget.LinearLayoutManager
-import android.util.Log
 import com.app.margaret.R
+import com.app.margaret.activities.home.ActivityHome
 import com.app.margaret.utils.adapter.Message
 import com.app.margaret.utils.adapter.MessageAdapter
 import kotlinx.android.synthetic.main.activity_chat.*
@@ -12,6 +13,7 @@ import kotlinx.android.synthetic.main.activity_chat.*
 class ActivityChat : AppCompatActivity() {
 
     private lateinit var adapter: MessageAdapter
+    var cont = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -33,6 +35,11 @@ class ActivityChat : AppCompatActivity() {
             )
             setupPusher(message)
             setupPusher(messageBot)
+            cont ++
+
+            if(cont == 2)  {
+                startHomeActivity()
+            }
         }
     }
 
@@ -41,5 +48,11 @@ class ActivityChat : AppCompatActivity() {
             adapter.addMessage(message)
             messageList.scrollToPosition(adapter.itemCount - 1)
         }
+    }
+
+    fun startHomeActivity() {
+        var intent = Intent(this, ActivityHome::class.java)
+        startActivity(intent)
+        this.finish()
     }
 }
