@@ -1,0 +1,49 @@
+[
+	{ 
+		"msg": "Olá, eu sou a Meg. Estou aqui para te ajudar a encontrar um curso bem legal.",
+		"opc": [],
+	},{ 
+		"msg": "Como posso te chamar?",
+		"opc": [],
+	},{ 
+		"msg": "É um prazer te conhecer, $user. Tenho a sensação que seremos bons amigos.",
+		"opc": [],
+	},{ 
+		"msg": "Você tem quanto anos?",
+		"opc": [],
+	},{ 
+		"msg": { 
+			"<14": "Tão jovem, na flor da idade. Sinto muito, mas não vou poder te ajudar por enquanto.",
+			">14": "Hmm, interessante."
+		},
+		"opc": [],
+	},{ 
+		"msg": "Em relação a escolaridade, qual seu nível de formação?",
+		"opc": ["Ensino Fundamental", "Ensino Médio", "Graduação"]
+	},{ 
+		"msg": "Concluído?",
+		"opc": ["Não", "Sim"]
+	},{ 
+		"msg": "Vai ser fácil encontrar um curso para você.",
+		"opc": [],
+	},{ 
+		"msg": "Mas antes, me tira uma curiosidade. Qual a sua música preferida?",
+		"opc": [],
+	},{ 
+		"msg": "Nossa, também adoro essa música. Muito boa, vamos ouvir um pouco?!",
+		"opc": [],
+	},{ 
+		"msg": "Ok, agora acho que já estamos prontos para começar um curso novo.",
+		"opc": [],
+	},{ 
+		"msg": "Qual seu objetivo em cursar esse curso?",
+		"opc": [ "Encontrar o primeiro emprego",
+				"Trocar de emprego",
+				"Melhorar a vida financeira",
+				"Curiosidade e capacitação em novas áreas."
+			]
+	},{ 
+		"msg": "Perfeito, agora sei como te ajudar. O que você acha dessas sugestões?",
+		"opc": []
+	}
+]
