@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_home"
+        android:checkable="false"
+        android:enabled="true"
+        android:icon="@drawable/ic_home"
+        android:title="Home"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_empresas"
+        android:enabled="true"
+        android:icon="@drawable/ic_empresas"
+        android:title="Empresas"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_cursos"
+        android:enabled="true"
+        android:icon="@drawable/ic_cursos"
+        android:title="Cursos"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_salvos"
+        android:enabled="true"
+        android:icon="@drawable/ic_salvos"
+        android:title="Salvos"
+        app:showAsAction="always|withText" />
+
+    <item
+        android:id="@+id/action_amigos"
+        android:enabled="true"
+        android:icon="@drawable/ic_amigos"
+        android:title="Amigos"
+        android:visible="true"
+        app:showAsAction="always|withText" />
+</menu>
